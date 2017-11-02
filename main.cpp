@@ -2,17 +2,17 @@
 
 using namespace std;
 
-class Base
+int main()
 {
-public:
-    Base() { cout << "Construct Base object\n"; }
-    ~Base() { cout << "Destruct Base object\n"; }
-};
-
-int main(int argc, char *argv[])
-{
-    cout << "* Create Object base" << endl;
-    Base base;
+    setlocale(0,"");
+    int i = 0;//
+    int sum = 0;
+    while (i<1000)
+    {
+    i++;
+    sum+=i;
+    }
+    cout<<" Sum 4usel ot 1 do 1000 ="<<sum << endl;
 
     return 0;
 }
