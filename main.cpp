@@ -2,17 +2,13 @@
 
 using namespace std;
 
-class Base
-{
-public:
-    Base() { cout << "Construct Base object\n"; }
-    ~Base() { cout << "Destruct Base object\n"; }
-};
+int main()
 
-int main(int argc, char *argv[])
-{
-    cout << "* Create Object base" << endl;
-    Base base;
+{ setlocale(0,"");
+double  num;
 
-    return 0;
+if (num<10) { cout<<" 4uslo min 10"<<endl;
+} else { cout<< " 4uslo max and ravn 10"<<endl;
+}
+  return 0;
 }
