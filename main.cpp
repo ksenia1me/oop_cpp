@@ -1,18 +1,15 @@
 #include <iostream>
 
 using namespace std;
-
-class Base
-{
-public:
-    Base() { cout << "Construct Base object\n"; }
-    ~Base() { cout << "Destruct Base object\n"; }
-};
-
-int main(int argc, char *argv[])
-{
-    cout << "* Create Object base" << endl;
-    Base base;
+ int main()
+ { setlocale(0,"");
+ int a,b;
+ cout<< " Pervoe 4uslo";
+ cin>>a;
+ cout << " Vtoroe 4uslo";
+ cin>>b;
+ int c = a+b;
+ cout<<"Sum = "<< c << endl;
 
     return 0;
 }
