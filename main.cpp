@@ -2,17 +2,16 @@
 
 using namespace std;
 
-class Base
+class BaseClass
 {
 public:
-    Base() { cout << "Construct Base object\n"; }
-    ~Base() { cout << "Destruct Base object\n"; }
+    BaseClass(){ print_it(); }
+    virtual void print_it(){
+     cout<<"BaseClass print_it"<<endl;
+     }
 };
 
-int main(int argc, char *argv[])
+int main()
 {
-    cout << "* Create Object base" << endl;
-    Base base;
-
-    return 0;
+    DerivedClass dc;
 }
